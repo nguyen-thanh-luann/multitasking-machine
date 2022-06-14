@@ -1,7 +1,4 @@
 
-
-
-
 function calcFahrenheit(){
     let cel = document.querySelector('#celsius').value;
     document.querySelector('#fahrenheit').value =  celToFah(cel);

@@ -1,27 +1,24 @@
+@import 'calculator';
+@import 'temperature';
+
 body{
     background: linear-gradient(to top right, #000000 -17%, #ffffff 142%);
     color: orange;
     font-weight: bold;
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    margin: 0;
+    height: 100vh
 
 }
 
-#equal{
-    font-size: 1rem;
-    margin: 0 1rem;
-}
-#nav{
+.nav{
     width: 10%;
     position:sticky;
     top: 0;
 }
-#nav ul{
-   
-}
 
-#nav li{
+.nav li{
     list-style: none;
     border: 1px solid black;
     width: 4rem;
@@ -31,34 +28,24 @@ body{
     padding: 1rem 0.2rem;
     background-color: orange;
 
-}
-#nav li:hover{
-    background-color: #000000;
+    &:hover{
+        background-color: #000
+    }
 
-}
-
-
-
-#nav i{
-    color: #fff;
+    i{
+        color: #fff;
     font-size: 2rem;
+
+    }
+
 }
 
-#main{
+.main{
     margin: auto;
     text-align: center;
-
 }
+
 .container{
     text-align: center;
 
-}
-
-.container .input-group{
-    display: inline-block;
-
-}
-
-.container input{
-    padding: 0.5rem;
 }

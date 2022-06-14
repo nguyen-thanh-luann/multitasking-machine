@@ -1,0 +1,55 @@
+.input-group {
+  display: inline-block;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(-17%, #000000), color-stop(142%, #ffffff));
+  background: linear-gradient(to top right, #000000 -17%, #ffffff 142%);
+  color: orange;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.nav {
+  width: 10%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  list-style: none;
+  border: 1px solid black;
+  width: 4rem;
+  border-radius: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem 0.2rem;
+  background-color: orange;
+}
+
+.nav li:hover {
+  background-color: #000;
+}
+
+.nav li i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.main {
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

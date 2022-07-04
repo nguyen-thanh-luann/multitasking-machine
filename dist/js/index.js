@@ -1,3 +1,21 @@
+const nav = document.querySelector('.nav');
+const navBtn = document.querySelector('.nav-btn');
+let showMenu = false;
+
+
+navBtn.addEventListener('click', toggleMenu)
+
+function toggleMenu(){
+    if(!showMenu){
+        nav.classList.add('nav-open')
+        showMenu = true
+    }else{
+        nav.classList.remove('nav-open')
+        showMenu = false
+    }
+}
+
+
 
 function calcFahrenheit(){
     let cel = document.querySelector('#celsius').value;
@@ -16,3 +34,5 @@ function fahToCel(fah){
 function celToFah(cel){
     return Number.parseFloat((cel / (5/9)) + 32).toFixed(1);
 }
+
+

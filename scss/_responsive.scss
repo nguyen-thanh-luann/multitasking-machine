@@ -1,0 +1,53 @@
+//mobile
+@media (max-width: 740px){
+
+    body{
+     
+    }
+
+    .main{
+        text-align: center;
+        margin-top: 25vh;
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .nav-btn{
+        display: block;
+        left: 0;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .nav-open{
+
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;             
+            padding: 0;
+            height: 100vh;
+        }
+    }
+}
+
+
+//pc
+@media (min-width: 1024px){
+    body{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .main{
+        margin: auto;
+        text-align: center;
+    }
+}

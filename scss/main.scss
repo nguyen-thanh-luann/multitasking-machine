@@ -1,13 +1,11 @@
 @import 'calculator';
 @import 'temperature';
+@import 'responsive';
 
 body{
     background: linear-gradient(to top right, #000000 -17%, #ffffff 142%);
     color: orange;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    margin: 0;
     height: 100vh
 
 }
@@ -17,6 +15,24 @@ body{
     position:sticky;
     top: 0;
 }
+
+
+.nav-open{
+    background-color: rgb(88, 86, 86);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.d-none{
+    display: none;
+}
+
 
 .nav li{
     list-style: none;
@@ -40,10 +56,7 @@ body{
 
 }
 
-.main{
-    margin: auto;
-    text-align: center;
-}
+
 
 .container{
     text-align: center;

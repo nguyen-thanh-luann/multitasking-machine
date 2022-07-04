@@ -166,6 +166,22 @@ td {
     text-align: center;
   }
 }
+@media (min-width: 740px) and (max-width: 1023px) {
+  body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .main {
+    margin: auto;
+    text-align: center;
+  }
+}
 body {
   background: linear-gradient(to top right, #000000 -17%, #ffffff 142%);
   color: orange;
@@ -187,9 +203,10 @@ body {
   height: 100vh;
   z-index: 999;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   top: 0;
   left: 0;
+  right: 0;
 }
 
 .d-none {

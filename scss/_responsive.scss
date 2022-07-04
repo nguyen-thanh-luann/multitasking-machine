@@ -21,7 +21,6 @@
     }
 
     .nav-open{
-
         .nav-list{
             display: flex;
             flex-direction: column;
@@ -36,6 +35,25 @@
 
 //pc
 @media (min-width: 1024px){
+    body{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .main{
+        margin: auto;
+        text-align: center;
+    }
+}
+
+//tablet
+@media (min-width: 740px) and (max-width: 1023px){
+
     body{
         display: flex;
         align-items: center;
